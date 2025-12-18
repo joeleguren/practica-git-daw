@@ -1,0 +1,9 @@
+=== git restore ===
+Desfà canvis locals en fitxers abans de fer commit, tant staged com unstaged. 
+S'utilitza quan vols descartar canvis locals sense afectar l'historial del repositori.
+Exemple: git restore fitxer.txt
+
+=== git revert ===
+Crea un nou commit que desfà els canvis d'un commit anterior ja fet. 
+S'utilitza per desfer commits ja compartits sense eliminar l'historial. 
+Exemple: git revert abc123
