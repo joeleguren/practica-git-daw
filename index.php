@@ -4,9 +4,8 @@
 
 function mostrarTasques($tasques) {
     echo "=== LLISTA DE TASQUES ===\n";
-     // ERROR INTENCIONAT: bucle for incorrecte
-    for ($i = 0; $i < count($tasques); $i++) {
-        echo "[$i] ERROR\n";  // Això no funcionarà correctament
+    foreach ($tasques as $id => $tasca) {
+        echo "[$id] $tasca\n";
     }
 }
 
